@@ -1,0 +1,81 @@
+/* 通用配置，css初始化 */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,ol,dl{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+/* #app */
+#app{
+    border: 1px solid #eee;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/* TodosHeader */
+.TodosHeader{
+
+}
+.TodosHeader input{
+    width: 100%;
+    line-height: 30px;
+    border: 1px solid #eee;
+    text-indent: 2em;
+    border-radius: 5px;
+}
+.TodosHeader input:focus{
+    outline: none;
+    background-color: #eee;
+}
+
+/* TodosMain */
+.TodosMain{
+
+}
+.TodosItem{
+    font-size: 13px;
+    color: #333;
+    line-height: 25px;
+} 
+.TodosItem span{
+    margin-left: 10px;
+}
+.TodosItem button{
+    float: right;
+    background-color: red;
+    color: #fff;
+    padding: 2px 5px;
+    border-radius: 3px;
+    border: 0;
+    display: none;
+    cursor: pointer;
+}
+.TodosItem:hover{
+    background-color: #eee;
+}
+.TodosItem:hover button{
+    display: inline-block;
+}
+
+/* TodosFooter */
+.TodosFooter{
+    font-size: 13px;
+    padding: 5px 0;
+}
+.TodosFooter span{
+    margin-left: 10px;
+}
+.TodosFooter button{
+    float: right;
+    background-color: red;
+    color: #fff;
+    border: 0;
+    padding: 2px 5px;
+    border-radius: 3px;
+}
